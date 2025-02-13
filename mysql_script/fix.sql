@@ -4,3 +4,5 @@ ALTER TABLE promotion_reward_activity
 ADD COLUMN product_scope_values VARCHAR(255) COMMENT 'product_scope_values';
 ALTER TABLE promotion_coupon_template 
 ADD COLUMN description VARCHAR(255) COMMENT 'description';
+ALTER TABLE pay_app 
+ADD COLUMN app_key VARCHAR(255) COMMENT 'app_key';
