@@ -6,3 +6,5 @@ ALTER TABLE promotion_coupon_template
 ADD COLUMN description VARCHAR(255) COMMENT 'description';
 ALTER TABLE pay_app 
 ADD COLUMN app_key VARCHAR(255) COMMENT 'app_key';
+ALTER TABLE trade_order
+ADD COLUMN give_coupon_template_counts VARCHAR(255) COMMENT 'give_coupon_template_counts';
