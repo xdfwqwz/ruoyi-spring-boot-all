@@ -12,3 +12,5 @@ ALTER TABLE trade_order
 ADD COLUMN give_coupon_ids VARCHAR(255) COMMENT 'give_coupon_ids';
 ALTER TABLE trade_order
     ADD COLUMN point_activity_id VARCHAR(255) COMMENT 'point_activity_id';
+ALTER TABLE trade_delivery_pick_up_store
+    ADD COLUMN verify_user_ids VARCHAR(255) COMMENT 'point_activity_id';
