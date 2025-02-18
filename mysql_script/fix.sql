@@ -8,3 +8,7 @@ ALTER TABLE pay_app
 ADD COLUMN app_key VARCHAR(255) COMMENT 'app_key';
 ALTER TABLE trade_order
 ADD COLUMN give_coupon_template_counts VARCHAR(255) COMMENT 'give_coupon_template_counts';
+ALTER TABLE trade_order
+ADD COLUMN give_coupon_ids VARCHAR(255) COMMENT 'give_coupon_ids';
+ALTER TABLE trade_order
+    ADD COLUMN point_activity_id VARCHAR(255) COMMENT 'point_activity_id';
